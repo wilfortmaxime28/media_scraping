@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup as bs
 import random
 
 scheme = 'https'
-target_host= 'kwenpam.com'
+target_host= 'lenouvelliste.com'
 target_url= f'{scheme}://www.{target_host}'
 print (target_url)
 proxy_url='https://github.com/clarketm/proxy-list/blob/master/proxy-list-raw.txt'
@@ -21,7 +21,6 @@ headers ={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4501.0 Safari/537.36 Edg/91.0.866.0',
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9, image/avif,image/webp,*/*;q=0.8',
     'Accept-Language':'en-US,en;q=0.5',
-    'Accept-Encoding':'gzip, deflate, br',
     }
 
 def get_random_proxy (proxy_list):
